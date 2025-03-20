@@ -1,0 +1,79 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Transition</title>
+
+<style>
+    div {
+        margin-bottom: 20px;
+    }
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 0, 255);
+    border:  2px solid rgb(248, 25, 0);
+    transition: transform 1s, background 10s;
+    
+}
+#one:hover {
+    transform: rotate(2000deg)scale(2);
+    background-color: azure;
+}
+
+#two {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(186, 26, 26);
+    border:  2px solid hwb(214 6% 47%);
+    transition: border-radius 1s;
+}
+#two:hover {
+    background: rgb(156, 104, 38);
+    border-radius: 50%;
+}
+#three {
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(193, 228, 34);
+    border:  2px solid rgb(195, 22, 94);
+    transition: transform 1s, background 10s;
+}
+#three:hover {
+    transform: rotate(2000deg)scale(2);
+    background-color: azure;
+}
+#four {
+    width: 1550px;
+    height: 1000px;
+    background-color: rgb(49, 11, 16);
+    border:  2px solid rgb(116, 199, 34);
+    transition: border-radius 5s, background 100s;
+}
+#four:hover {
+    background: rgb(156, 104, 38);
+    border-radius: 50%;
+}
+
+   </style>
+</head>
+
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+</body>
+
+
+</html>
+
+
+
+ 
+
+
+
+
