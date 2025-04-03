@@ -1,0 +1,76 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Postion</title>
+    <style>
+        div {
+width: 150px;
+height: 150px;
+background-color: rgb(147, 32, 136);
+border: 2px solid black;
+        }
+        #one {
+            position:static;
+            z-index: 100;
+        }
+
+        #two {
+            position: relative;
+            left: 100px;
+            top: 50px;
+            z-index: 50;
+            background-color: rgb(215, 43, 43);
+        }
+
+       #three {
+        position: absolute;
+        background: blue;
+        right: 300px;
+        top: 60px;
+        z-index: 200;
+        background-color: rgb(86, 211, 44);
+       }
+
+       #four {
+        position: fixed;
+        background-color: antiquewhite;
+        right: 0;
+        bottom: 30px;
+        z-index: 500;
+
+       }
+
+       #five {
+        position: relative;
+            left: 100px;
+            top: 50px;
+            bottom: 100px;
+            z-index: 50;
+            background-color: azure;
+       }
+
+
+
+        
+    </style>
+
+</head>
+
+<body>
+
+<div id="one">
+</div>
+<div id="two">
+</div>
+<div id="three"> 
+</div>
+<div id="four">
+</div>
+<div id="five">
+</div>
+
+</body>
+</html>
